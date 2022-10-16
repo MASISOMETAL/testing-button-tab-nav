@@ -42,5 +42,4 @@ export const styles = StyleSheet.create({
     textInfo:{
         fontSize: 20,
     },
-
 })
