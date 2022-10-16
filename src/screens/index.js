@@ -1,0 +1,9 @@
+export {default as Stack1Pantalla1} from "./stack1pantalla1";
+export {default as Stack1Pantalla2} from "./stack1pantalla2";
+export {default as Stack1Pantalla3} from "./stack1pantalla3";
+export {default as Stack2Pantalla1} from "./stack2pantalla1";
+export {default as Stack2Pantalla2} from "./stack2pantalla2";
+export {default as Stack2Pantalla3} from "./stack2pantalla3";
+export {default as Stack3Pantalla1} from "./stack3pantalla1";
+export {default as Stack3Pantalla2} from "./stack3pantalla2";
+export {default as Stack3Pantalla3} from "./stack3pantalla3";
