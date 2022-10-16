@@ -1,6 +1,8 @@
 import { StyleSheet, SafeAreaView, ActivityIndicator, View, StatusBar, Platform } from 'react-native';
 import AppNavigator from './src/navigation';
 import { useFonts } from 'expo-font';
+import { Provider } from 'react-redux';
+import store from './src/store';
 
 const App = () =>{
 
@@ -20,9 +22,11 @@ const App = () =>{
   }
 
   return (
-    <SafeAreaView style={styles.container}>
-          <AppNavigator/>
-    </SafeAreaView>
+    <Provider store={store}>
+      <SafeAreaView style={styles.container}>
+            <AppNavigator/>
+      </SafeAreaView>
+    </Provider>
   );
 }
 
